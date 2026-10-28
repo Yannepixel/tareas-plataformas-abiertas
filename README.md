@@ -1,9 +1,3 @@
-# API Estudiantes - Práctica de Endpoints
-
-API sencilla creada con Flask para la práctica de endpoints.
-
-## Endpoints
-
 ### 1. Hola
 - **Método:** GET
 - **URL:** `/estudiantes/api/v1/hola`
@@ -19,4 +13,47 @@ API sencilla creada con Flask para la práctica de endpoints.
 {
   "nombre": "Leonardo",
   "apellido": "Da vinci"
+
+
+Práctica 3
+
+{
+  "mensaje": "Lista de estudiantes obtenida correctamente.",
+  "estudiantes": [
+    "Ana",
+    "Carlos",
+    "María"
+  ]
+}
+
+Agregar un estudiante
+
+{
+  "nombre": "Pedro"
+}
+
+Respuesta
+
+{
+  "mensaje": "Estudiante agregado correctamente.",
+  "estudiante": "Pedro"
+}
+
+Actualizar un estudiante
+
+{
+  "nombre": "Pedro Ramírez"
+}
+Respuesta
+
+{
+  "mensaje": "Estudiante actualizado correctamente.",
+  "id": 1
+}
+
+Eliminar un estudiante
+
+{
+  "mensaje": "Estudiante eliminado correctamente.",
+  "id": 1
 }
